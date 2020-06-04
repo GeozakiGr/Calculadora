@@ -24,6 +24,7 @@ public class App {
         System.out.println("5/0=" + c.divide(5, 0));
         System.out.println("sen 30= "+ c.seno(30));
         System.out.println("cos 90 = "+ c.coseno(90));
+        System.out.println("tan 45 = "+ c.tangente(90));
         System.out.println("Autor: Ricardo Rafael Quintero Meza-ITC");
     }
 }

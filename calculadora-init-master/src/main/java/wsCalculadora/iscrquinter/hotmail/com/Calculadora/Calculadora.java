@@ -34,6 +34,11 @@ public class Calculadora {
 		return Math.cos(y);
 
 	}
+	public double tangente(double x){
+		double y = Math.toRadians(x);
+		return Math.tan(y);
+
+	}
 		
 	
     
