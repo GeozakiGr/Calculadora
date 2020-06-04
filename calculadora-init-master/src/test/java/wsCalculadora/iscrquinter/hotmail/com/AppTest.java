@@ -43,4 +43,9 @@ public class AppTest {
 
         assertTrue(c.seno(90)==0);
     }
+    @Test public void testTan() {
+        Calculadora c = new Calculadora();
+
+        assertTrue(c.tangente(45)==Math.tan(Math.toRadians(45)))
+    }
 }
